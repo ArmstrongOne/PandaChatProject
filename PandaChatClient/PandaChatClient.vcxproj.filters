@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Win">
+      <UniqueIdentifier>{74bc5f2a-b8ab-4fb4-b495-701c1c24f104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{d8606729-e570-4b90-9025-fd525330c03b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{c53fad9c-d791-48ab-a736-042fea46b318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ini">
+      <UniqueIdentifier>{1a0c37ac-0961-4488-9045-5f3994d038f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib1.2.11">
+      <UniqueIdentifier>{34958edf-ae40-4a6c-b769-bddcc5513cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncpp1.9.0">
+      <UniqueIdentifier>{224de018-ebae-49ee-ad49-a73f4cf7ee97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RunSetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\FileOperation.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\WinApiOperation.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ClientLog.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win\LoginWin.cpp">
+      <Filter>Win</Filter>
+    </ClCompile>
+    <ClCompile Include="Win\WinManager.cpp">
+      <Filter>Win</Filter>
+    </ClCompile>
+    <ClCompile Include="Win\MainWin.cpp">
+      <Filter>Win</Filter>
+    </ClCompile>
+    <ClCompile Include="Win\ChatWin.cpp">
+      <Filter>Win</Filter>
+    </ClCompile>
+    <ClCompile Include="Ini\ConfigFileReader.cpp">
+      <Filter>Ini</Filter>
+    </ClCompile>
+    <ClCompile Include="Ini\FontIni.cpp">
+      <Filter>Ini</Filter>
+    </ClCompile>
+    <ClCompile Include="Win\LoginAvatarWid.cpp">
+      <Filter>Win</Filter>
+    </ClCompile>
+    <ClCompile Include="Ini\LoginSetting.cpp">
+      <Filter>Ini</Filter>
+    </ClCompile>
+    <ClCompile Include="Win\LoginStateWid.cpp">
+      <Filter>Win</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\ClientSocketManager.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\NetTastHandle.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\adler32.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\compress.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\crc32.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\deflate.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\gzclose.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\gzlib.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\gzread.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\gzwrite.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\infback.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\inffast.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\inflate.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\inftrees.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\trees.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\uncompr.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\zlibdemo.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\zutil.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ZlibUtil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\protocolstream.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\IUProtocolData.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp1.9.0\json_reader.cpp">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp1.9.0\json_value.cpp">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp1.9.0\json_writer.cpp">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\UserSessionData.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Path.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Buffer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\EncodeUtil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win\TipsDialog.cpp">
+      <Filter>Win</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RunSetting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FileOperation.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\WinApiOperation.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ClientLog.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Ini\ConfigFileReader.h">
+      <Filter>Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="Ini\FontIni.h">
+      <Filter>Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="Panda.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\ClientSocketManager.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Singleton.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\NetTastHandle.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\NetProtocol.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\crc32.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\deflate.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\gzguts.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\inffast.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\inffixed.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\inflate.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\inftrees.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\trees.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\zconf.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\zlib.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\zutil.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ZlibUtil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\protocolstream.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\IUProtocolData.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\allocator.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\assertions.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\autolink.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\config.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\features.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\forwards.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\json.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\json_tool.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\reader.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\value.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\version.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\writer.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\UserSessionData.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Path.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Buffer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\EncodeUtil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Win\LoginWin.ui">
+      <Filter>Win</Filter>
+    </QtUic>
+    <QtUic Include="Win\MainWin.ui">
+      <Filter>Win</Filter>
+    </QtUic>
+    <QtUic Include="Win\ChatWin.ui">
+      <Filter>Win</Filter>
+    </QtUic>
+    <QtUic Include="Win\LoginAvatarWid.ui">
+      <Filter>Win</Filter>
+    </QtUic>
+    <QtUic Include="Win\LoginStateWid.ui">
+      <Filter>Win</Filter>
+    </QtUic>
+    <QtUic Include="Win\TipsDialog.ui">
+      <Filter>Win</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="PandaChatClient.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Win\LoginWin.h">
+      <Filter>Win</Filter>
+    </QtMoc>
+    <QtMoc Include="Win\WinManager.h">
+      <Filter>Win</Filter>
+    </QtMoc>
+    <QtMoc Include="Win\MainWin.h">
+      <Filter>Win</Filter>
+    </QtMoc>
+    <QtMoc Include="Win\ChatWin.h">
+      <Filter>Win</Filter>
+    </QtMoc>
+    <QtMoc Include="Win\LoginAvatarWid.h">
+      <Filter>Win</Filter>
+    </QtMoc>
+    <QtMoc Include="Ini\LoginSetting.h">
+      <Filter>Ini</Filter>
+    </QtMoc>
+    <QtMoc Include="Win\LoginStateWid.h">
+      <Filter>Win</Filter>
+    </QtMoc>
+    <QtMoc Include="Win\TipsDialog.h">
+      <Filter>Win</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="zlib1.2.11\文件概览.txt">
+      <Filter>zlib1.2.11</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jsoncpp1.9.0\json_valueiterator.inl">
+      <Filter>jsoncpp1.9.0</Filter>
+    </None>
+  </ItemGroup>
+</Project>

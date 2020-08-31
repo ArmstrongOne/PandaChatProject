@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mysqlapi">
+      <UniqueIdentifier>{5befc476-6fe0-49cd-8270-97333d08d3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mysql_8_0_11">
+      <UniqueIdentifier>{14680dff-4927-440c-aea7-407fba4dabdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{d1b071ae-6d3e-48cc-a799-dd7f60e40327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mysqlmgr">
+      <UniqueIdentifier>{7c9a6c81-dc45-4cfd-988d-46be0e96ec84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerIni">
+      <UniqueIdentifier>{9e1d80f4-4971-40a9-9894-e194f0cb22b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{1d51b31f-f61a-41fb-baaa-6ddd461a6f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{ae6f4459-dc7f-43dd-9a14-7d522c737fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chatserversrc">
+      <UniqueIdentifier>{a964a5dd-ca03-4cab-ab5c-2bb8a97c2c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncpp1.9.0">
+      <UniqueIdentifier>{a92bc9fb-22ce-4f2a-821b-debb16da6924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib1.2.11">
+      <UniqueIdentifier>{ebbb89e8-a380-4d03-b683-145a8b1c3290}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="zlib1.2.11\文件概览.txt">
+      <Filter>zlib1.2.11</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\binary_log_types.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\client_plugin.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\errmsg.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\my_command.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\my_list.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\mysql.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\mysql_com.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\mysql_time.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\mysql_version.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\mysqld_error.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\mysqlx_ername.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\mysqlx_error.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\mysqlx_version.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\plugin_auth_common.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_8_0_11\udf_registration_types.h">
+      <Filter>mysql_8_0_11</Filter>
+    </ClInclude>
+    <ClInclude Include="mysqlapi\DatabaseMysql.h">
+      <Filter>mysqlapi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysqlapi\Field.h">
+      <Filter>mysqlapi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysqlapi\QueryResult.h">
+      <Filter>mysqlapi</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\AsyncLog.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="mysqlmgr\MysqlManager.h">
+      <Filter>mysqlmgr</Filter>
+    </ClInclude>
+    <ClInclude Include="mysqlmgr\MysqlTask.h">
+      <Filter>mysqlmgr</Filter>
+    </ClInclude>
+    <ClInclude Include="mysqlmgr\MysqlThrd.h">
+      <Filter>mysqlmgr</Filter>
+    </ClInclude>
+    <ClInclude Include="mysqlmgr\MysqlThrdMgr.h">
+      <Filter>mysqlmgr</Filter>
+    </ClInclude>
+    <ClInclude Include="mysqlmgr\TaskList.h">
+      <Filter>mysqlmgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Singleton.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerIni\ConfigFileReader.h">
+      <Filter>ServerIni</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FileOperation.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\WinApiOperation.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Path.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Acceptor.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Buffer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Callbacks.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Channel.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Connector.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Endian.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\EpollPoller.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\EventLoop.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\EventLoopThread.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\EventLoopThreadPool.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\InetAddress.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Poller.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\PollPoller.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\ProtocolStream.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\SelectPoller.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Sockets.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\TcpClient.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\TcpConnection.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\TcpServer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Timer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\TimerId.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\TimerQueue.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Platform.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Timestamp.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="chatserversrc\BussinessLogic.h">
+      <Filter>chatserversrc</Filter>
+    </ClInclude>
+    <ClInclude Include="chatserversrc\ChatServer.h">
+      <Filter>chatserversrc</Filter>
+    </ClInclude>
+    <ClInclude Include="chatserversrc\ChatSession.h">
+      <Filter>chatserversrc</Filter>
+    </ClInclude>
+    <ClInclude Include="chatserversrc\HttpMsg.h">
+      <Filter>chatserversrc</Filter>
+    </ClInclude>
+    <ClInclude Include="chatserversrc\HttpServer.h">
+      <Filter>chatserversrc</Filter>
+    </ClInclude>
+    <ClInclude Include="chatserversrc\HttpSession.h">
+      <Filter>chatserversrc</Filter>
+    </ClInclude>
+    <ClInclude Include="chatserversrc\MonitorServer.h">
+      <Filter>chatserversrc</Filter>
+    </ClInclude>
+    <ClInclude Include="chatserversrc\MonitorSession.h">
+      <Filter>chatserversrc</Filter>
+    </ClInclude>
+    <ClInclude Include="chatserversrc\Msg.h">
+      <Filter>chatserversrc</Filter>
+    </ClInclude>
+    <ClInclude Include="chatserversrc\MsgCacheManager.h">
+      <Filter>chatserversrc</Filter>
+    </ClInclude>
+    <ClInclude Include="chatserversrc\TcpSession.h">
+      <Filter>chatserversrc</Filter>
+    </ClInclude>
+    <ClInclude Include="chatserversrc\UserManager.h">
+      <Filter>chatserversrc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\allocator.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\assertions.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\autolink.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\config.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\features.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\forwards.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\json.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\json_tool.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\reader.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\value.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\version.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp1.9.0\writer.h">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\crc32.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\deflate.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\gzguts.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\inffast.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\inffixed.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\inflate.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\inftrees.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\trees.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\zconf.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\zlib.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\ZlibUtil.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib1.2.11\zutil.h">
+      <Filter>zlib1.2.11</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\StringUtil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\URLEncodeUtil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PandaChatServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mysqlapi\DatabaseMysql.cpp">
+      <Filter>mysqlapi</Filter>
+    </ClCompile>
+    <ClCompile Include="mysqlapi\Field.cpp">
+      <Filter>mysqlapi</Filter>
+    </ClCompile>
+    <ClCompile Include="mysqlapi\QueryResult.cpp">
+      <Filter>mysqlapi</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\AsyncLog.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="mysqlmgr\MysqlManager.cpp">
+      <Filter>mysqlmgr</Filter>
+    </ClCompile>
+    <ClCompile Include="mysqlmgr\MysqlThrd.cpp">
+      <Filter>mysqlmgr</Filter>
+    </ClCompile>
+    <ClCompile Include="mysqlmgr\MysqlThrdMgr.cpp">
+      <Filter>mysqlmgr</Filter>
+    </ClCompile>
+    <ClCompile Include="mysqlmgr\TaskList.cpp">
+      <Filter>mysqlmgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerIni\ConfigFileReader.cpp">
+      <Filter>ServerIni</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\FileOperation.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\WinApiOperation.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Path.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Acceptor.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Buffer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Channel.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Connector.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\EpollPoller.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\EventLoop.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\EventLoopThread.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\EventLoopThreadPool.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\InetAddress.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Poller.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\PollPoller.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\ProtocolStream.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\SelectPoller.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Sockets.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\TcpClient.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\TcpConnection.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\TcpServer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Timer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\TimerQueue.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Platform.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Timestamp.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="chatserversrc\BussinessLogic.cpp">
+      <Filter>chatserversrc</Filter>
+    </ClCompile>
+    <ClCompile Include="chatserversrc\ChatServer.cpp">
+      <Filter>chatserversrc</Filter>
+    </ClCompile>
+    <ClCompile Include="chatserversrc\ChatSession.cpp">
+      <Filter>chatserversrc</Filter>
+    </ClCompile>
+    <ClCompile Include="chatserversrc\HttpServer.cpp">
+      <Filter>chatserversrc</Filter>
+    </ClCompile>
+    <ClCompile Include="chatserversrc\HttpSession.cpp">
+      <Filter>chatserversrc</Filter>
+    </ClCompile>
+    <ClCompile Include="chatserversrc\MonitorServer.cpp">
+      <Filter>chatserversrc</Filter>
+    </ClCompile>
+    <ClCompile Include="chatserversrc\MonitorSession.cpp">
+      <Filter>chatserversrc</Filter>
+    </ClCompile>
+    <ClCompile Include="chatserversrc\MsgCacheManager.cpp">
+      <Filter>chatserversrc</Filter>
+    </ClCompile>
+    <ClCompile Include="chatserversrc\TcpSession.cpp">
+      <Filter>chatserversrc</Filter>
+    </ClCompile>
+    <ClCompile Include="chatserversrc\UserManager.cpp">
+      <Filter>chatserversrc</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp1.9.0\json_reader.cpp">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp1.9.0\json_value.cpp">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp1.9.0\json_writer.cpp">
+      <Filter>jsoncpp1.9.0</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\adler32.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\compress.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\crc32.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\deflate.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\gzclose.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\gzlib.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\gzread.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\gzwrite.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\infback.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\inffast.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\inflate.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\inftrees.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\trees.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\uncompr.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\zlibdemo.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\ZlibUtil.cpp">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib1.2.11\zutil.c">
+      <Filter>zlib1.2.11</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\StringUtil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\URLEncodeUtil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jsoncpp1.9.0\json_valueiterator.inl">
+      <Filter>jsoncpp1.9.0</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="PandaChatClient">
+    <file>all_image/Win_Login/state_ban.png</file>
+    <file>all_image/Win_Login/state_busy.png</file>
+    <file>all_image/Win_Login/state_leave.png</file>
+    <file>all_image/Win_Login/state_online.png</file>
+    <file>all_image/Win_Login/state_yinshen.png</file>
+    <file>all_image/Win_Login/logo_text.png</file>
+    <file>all_image/Win_Login/check_checkbtn.png</file>
+    <file>all_image/Win_Login/uncheck_checkbtn.png</file>
+    <file>all_image/Win_Login/close.png</file>
+    <file>all_image/Win_Login/logo.png</file>
+    <file>all_image/Win_Login/check_account_ logo.png</file>
+    <file>all_image/Win_Login/check_code_logo.png</file>
+    <file>all_image/Win_Login/uncheck_account_ logo.png</file>
+    <file>all_image/Win_Login/uncheck_code_logo.png</file>
+    <file>all_image/Win_Login/setting.png</file>
+    <file>all_image/Win_Login/win_min.png</file>
+  </qresource>
+</RCC>

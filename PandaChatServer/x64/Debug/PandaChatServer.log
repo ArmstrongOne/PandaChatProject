@@ -1,0 +1,62 @@
+﻿  TcpServer.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  TcpConnection.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+net\TcpConnection.cpp(146): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+net\TcpConnection.cpp(351): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+  SelectPoller.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  EventLoopThreadPool.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  EventLoopThread.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  Channel.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  正在生成代码...
+  正在编译...
+  TimerQueue.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  TcpClient.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  EventLoop.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+net\EventLoop.cpp(47): warning C4244: “参数”: 从“SOCKET”转换到“int”，可能丢失数据
+  Connector.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+net\Connector.cpp(77): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+net\Connector.cpp(78): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+  Acceptor.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+net\Acceptor.cpp(16): warning C4244: “参数”: 从“SOCKET”转换到“int”，可能丢失数据
+  TcpSession.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+chatserversrc\TcpSession.cpp(25): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+chatserversrc\TcpSession.cpp(37): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+chatserversrc\TcpSession.cpp(42): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+chatserversrc\TcpSession.cpp(63): warning C4267: “=”: 从“size_t”转换到“int32_t”，可能丢失数据
+  MonitorSession.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+chatserversrc\MonitorSession.cpp(157): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  MonitorServer.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  HttpSession.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+chatserversrc\HttpSession.cpp(107): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  HttpServer.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  ChatSession.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+chatserversrc\ChatSession.cpp(738): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+chatserversrc\ChatSession.cpp(785): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+chatserversrc\ChatSession.cpp(1013): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+chatserversrc\ChatSession.cpp(1589): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+chatserversrc\ChatSession.cpp(1608): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+  ChatServer.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  BussinessLogic.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  PandaChatServer.cpp
+d:\pandachatproject\pandachatserver\pandachatserver\net\../net/Channel.h(62): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  正在生成代码...
+  PandaChatServer.vcxproj -> D:\PandaChatProject\PandaChatServer\x64\Debug\PandaChatServer.exe
+  PandaChatServer.vcxproj -> D:\PandaChatProject\PandaChatServer\x64\Debug\PandaChatServer.pdb (Full PDB)
